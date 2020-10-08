@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/idfNameListView"
+        android:textSize="20sp"
+        android:hint="Sunny"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_toRightOf="@+id/idfNameListView"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/idlNameListView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="rahaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_below="@+id/idfNameListView"
+        android:id="@+id/idEmailListView"
+        android:textSize="16sp"
+        android:hint="Email: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_below="@+id/idEmailListView"
+        android:id="@+id/idPhoneListView"
+        android:textSize="13sp"
+        android:hint="Phone: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/idPasswordListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEmailListView"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/idPhoneListView"
+        android:hint="Password: "
+        android:textSize="13sp"
+        />
+
+</RelativeLayout>
